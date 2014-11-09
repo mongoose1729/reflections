@@ -1,0 +1,6 @@
+What happens when you initialize a repository?  Why do you need to do it?
+
+  It appears that initialializing a repository creates a git object.  That
+  object allows the git program to keep track of different versions of the
+  project files.
+

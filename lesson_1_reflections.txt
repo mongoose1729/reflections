@@ -1,0 +1,54 @@
+How did viewing a diff between two versions of a file help you see the bug
+that was introduced?
+
+     It lined up the differences between them.  From there, with the naked eye
+     it was easy to see what the error was.
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    First, if you ever make an error, it's easy to recover an error-free
+    previous version.  Second, you have a log of you progress on the file, and
+    maybe of your learning curve as it relates to the problem/program.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like
+Google docs does?
+    
+    Pros: You can separate the commits into logical checkpoints, instead of
+    random points between your points of work.
+
+    Cons: You open up to user error - eg, not committing often enough, or
+    forgetting
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file
+separately?
+
+    Google Docs uses mainly office-type documents: word processing documents
+    and spreadsheets.  These type of documents are (usually) less
+    interdependent than source files.  For a word processing document or a
+    spreadsheet, it is usually more important to have the latest edits saved
+    as soon as possible, rather than worrying about whether that document
+    depends on another.
+
+How can you use the commands git log and git diff to view the history of
+files?
+    
+    You can use git log to see every different commit that's been made to a
+    project.  This will give you an overview of the entire project timeline.
+    Using git diff, you can see the granular changes between project files at
+    a certain snapshot in time.
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    Version control provides a "safety net".  If a new version of what you do
+    breaks something, you know it's easy to go back to a previous version and
+    correct your mistake.  Having that safety net makes it easier to
+    experiment.
+
+Now that you have your workspace set up, what do you want to try using Git
+for?
+
+    Working on other programming courses, websites
