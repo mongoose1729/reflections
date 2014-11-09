@@ -12,3 +12,10 @@ repository?  What value do you think it offers?
   continue to exist, regardless of whether the user is operating on them.  The
   value is that it allows you to modify a temporary variable while deciding
   what you want to put in the repository, before you commit.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+  You can use git diff --staged to compare the differences between the latest
+  commit and what you are about to commit.  That comparison will tell whether
+  the difference represents one logical change.
