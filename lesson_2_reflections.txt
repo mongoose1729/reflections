@@ -4,3 +4,11 @@ What happens when you initialize a repository?  Why do you need to do it?
   object allows the git program to keep track of different versions of the
   project files.
 
+How is the staging area different from the working directory and the
+repository?  What value do you think it offers?
+
+  The staging area is just a temporary vehicle.  It only exists to determine
+  what will be added to the repo.  The repository and working directory
+  continue to exist, regardless of whether the user is operating on them.  The
+  value is that it allows you to modify a temporary variable while deciding
+  what you want to put in the repository, before you commit.
