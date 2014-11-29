@@ -19,3 +19,9 @@ change?
   You can use git diff --staged to compare the differences between the latest
   commit and what you are about to commit.  That comparison will tell whether
   the difference represents one logical change.
+
+What are some situations when branches would be helpful in keeping your
+history organized?  How would branches help?
+
+  Branches would be helpful if I was adding a whole new functionality to a
+  program, or taking someone else's program in my own direction.
