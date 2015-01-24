@@ -25,3 +25,22 @@ history organized?  How would branches help?
 
   Branches would be helpful if I was adding a whole new functionality to a
   program, or taking someone else's program in my own direction.
+
+How do the diagrams help you visualize the branch structure?
+
+  They allow you to see how different commits are related.
+
+What is the result of merging two branches together?  Why do we represent it
+in the diagram the way we do?
+
+  The result is that all of the commits are represented along a single branch.
+  We do it this way to be able to trace back the commits in a linear fashion.
+
+What are the pros and cons of Git's automatic merging vs always doing
+merges manually?
+
+  The pros are that it saves time.  If the changes are small, then Git
+  won't be asking users to resolve every single small difference in
+  the files.  The cons are that the users are relying on Git to
+  discern which changes need to be double-checked, and which can be
+  automatically changed in the merged file.
