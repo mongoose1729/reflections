@@ -28,3 +28,12 @@ remote stored locally?
   if you cannot connect to the remote (eg if you're traveling), having
   a local copy still allows you to merge with the most recent branch
   of the remote.
+
+How would you collaborate without using Git or GitHub?  What would be
+easier, and what would be harder?
+
+  Without GitHub, I would likely just save multiple versions of a file
+  and email them around.  This would make it easier in the sense that
+  I wouldn't have to learn all the new lingo associated with Git.  But
+  it would involve a lot of work to manually track versions and
+  changes, rather than letting the Git software do that work for me.
