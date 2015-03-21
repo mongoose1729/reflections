@@ -1,4 +1,5 @@
-When would you want to use a remote repository rather than keeping all your work local?
+When would you want to use a remote repository rather than keeping all
+your work local?
 
   This would be useful if you are not at your local computer. It would
   also be useful if you are collaborating, and want your work to get
@@ -37,3 +38,15 @@ easier, and what would be harder?
   I wouldn't have to learn all the new lingo associated with Git.  But
   it would involve a lot of work to manually track versions and
   changes, rather than letting the Git software do that work for me.
+
+When would you want to make changes in a separate branch rather than
+directly in master?  What benefits does each approach have?
+
+  A separate branch makes sense when it's a logical departure from the
+  existing master branch.  This would likely be for anything that
+  wasn't a minor change to the code, but rather taking the project in
+  a different direction.  The benefit here is that collaborators can
+  review changes on a separate level, to see if the changes make sense
+  to be added into the project.  When you just update the master
+  branch, however, you have the benefit of less confusion than trying
+  to integrate the changes of multiple branches.
